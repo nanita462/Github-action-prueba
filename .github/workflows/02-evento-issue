@@ -2,7 +2,6 @@ name: 02 - Evento issue
 on:
   workflow_dispatch:
   push:
-  on:
   issues:
     types:
       - opened
