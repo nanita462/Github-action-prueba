@@ -2,7 +2,7 @@ name: 02 - Evento issue
 on:
   push:
   issues:
-    types: [opened]
+    types: [opened, edited, milestoned]
 jobs:
   hola-mundo-1b:
     runs-on: ubuntu-latest
