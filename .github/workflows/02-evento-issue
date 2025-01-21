@@ -1,10 +1,9 @@
 name: 02 - Evento issue
 on:
-  workflow_dispatch:
   push:
   issues:
     types:
-      - opened
+    - opened
 jobs:
   hola-mundo-1b:
     runs-on: ubuntu-latest
