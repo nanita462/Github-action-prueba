@@ -1,0 +1,11 @@
+# This is a basic workflow that is manually triggered
+
+name: Practica 01 Hola Mundo
+on:
+  workflow_dispatch:
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send greeting
+      run: echo "Hola"
