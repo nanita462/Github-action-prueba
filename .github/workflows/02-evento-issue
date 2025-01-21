@@ -1,0 +1,14 @@
+name: 02 - Evento issue
+on:
+  workflow_dispatch:
+  push:
+  on:
+  issues:
+    types:
+      - opened
+jobs:
+  hola-mundo-1b:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hola Ana
+      run: echo "Hola Ana"
