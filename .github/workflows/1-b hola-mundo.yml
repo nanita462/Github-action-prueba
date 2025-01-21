@@ -1,0 +1,12 @@
+# This is a basic workflow that is manually triggered
+
+name: 01b hola-mundo
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  hola-mundo-1b:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hola Ana
+      run: echo "Hola Ana"
